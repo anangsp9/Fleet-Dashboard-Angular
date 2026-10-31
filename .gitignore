@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Production builds
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Angular specific
+.angular/
+*.tsbuildinfo
+
+# Test & lint cache
+coverage/
+.eslintcache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Skills & AI tools
+.impeccable/
+.opencode/
+.ui-ux-pro-max/
